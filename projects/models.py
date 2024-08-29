@@ -11,6 +11,9 @@ class Category(models.Model):
     def __str__(self):
         return self.name
     
+    class Meta:
+        verbose_name_plural = _('Categories')
+    
 
 class ProjectStatus(models.IntegerChoices):
     PENDING = 1, _('Pending')
@@ -37,6 +40,9 @@ class Project(models.Model):
 
     def __str__(self):
         return self.title
+    
+    class Meta:
+        verbose_name_plural = _('Projects')
 
 
 class Task(models.Model):
@@ -46,4 +52,7 @@ class Task(models.Model):
 
     def __str__(self):
         return self.description
+    
+    class Meta:
+        verbose_name_plural = _('Tasks')
     
