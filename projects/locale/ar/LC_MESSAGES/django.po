@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-29 14:36+0300\n"
+"POT-Creation-Date: 2024-08-29 15:51+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,9 +19,9 @@ msgstr ""
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
 
-#: .\projects\admin.py:10 .\projects\models.py:45
-msgid "Projects"
-msgstr "المشاريع"
+#: .\projects\apps.py:7
+msgid "manage"
+msgstr "إدارة"
 
 #: .\projects\forms.py:13
 msgid "Category"
@@ -54,6 +54,10 @@ msgstr "معلق"
 #: .\projects\models.py:22
 msgid "Cancelled"
 msgstr "ملغي"
+
+#: .\projects\models.py:45
+msgid "Projects"
+msgstr "المشاريع"
 
 #: .\projects\models.py:57
 msgid "Tasks"
@@ -148,7 +152,7 @@ msgstr "إضافة"
 msgid "Save"
 msgstr "حفظ"
 
-#: .\projects_management\urls.py:25 .\projects_management\urls.py:26
+#: .\projects_management\urls.py:24 .\projects_management\urls.py:25
 msgid "Projects Management Administration"
 msgstr "مسؤولية إدارة المشاريع"
 
