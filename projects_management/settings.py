@@ -84,11 +84,11 @@ WSGI_APPLICATION = 'projects_management.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'cah8ha8ra8h8i7.cluster-czz5s0kz4scl.eu-west-1.rds.amazonaws.com',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'dfc2ut6satv2ni',
         'USER': 'uhejfk9glb1v6',
         'PASSWORD': 'p64d5bf39fa9ab8e58b47f91a90c4376559aea255198a6831e794b1b97a4dbb02',
-        'HOST': 'localhost',
+        'HOST': 'cah8ha8ra8h8i7.cluster-czz5s0kz4scl.eu-west-1.rds.amazonaws.com',
         'PORT': '5432'
     }
 }
